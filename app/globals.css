@@ -25,10 +25,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 } */
 
-label {
-  @apply text-base font-semibold text-gray-800;
-}
+@layer base{
+  label {
+    @apply text-base font-semibold text-gray-800;
+  }
 
-p {
-  @apply text-sm text-gray-500;
+  p {
+    @apply text-sm text-gray-500;
+  }
 }
